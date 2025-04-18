@@ -7,7 +7,7 @@ import TopLoadingBar from './TopLoadingBar'
 import { useMode } from '../contexts/modeContext'
 
 const Navbar = () => {
-    const [[progress, setProgress]] = useTopLoader()
+    const [[progress, setProgress]] = useTopLoader()  
     const [modeCheck, setModeCheck] = useMode()
     return (
         <>
