@@ -20,7 +20,7 @@ const WebScreenshot = () => {
   const getImg = async () => {
     setLoading(true)
     const response = await fetch(
-      `https://screenshot.abstractapi.com/v1/?api_key=a8059f9bd36b4959b96804e9e21d1eac&url=${inputData}`
+      `https://screenshot.abstractapi.com/v1/?api_key=54f5476e0f9d4fe0a1208c5291b369e6&url=${inputData}`
     )
     const blob = await response.blob();
     const imgUrl = URL.createObjectURL(blob);
